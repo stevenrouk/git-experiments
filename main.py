@@ -15,6 +15,10 @@ def primes(n):
             primes.append(i)
     return primes
 
+def generator_function(n):
+    for i in list(range(n)):
+        yield i
+
 if __name__ == '__main__':
     hello_world()
     print(primes(11))
