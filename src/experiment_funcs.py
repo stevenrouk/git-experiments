@@ -1,7 +1,7 @@
 """Some Docstring here."""
 
 def hello_world():
-    print("Hello world!")
+    return "Hello world!"
 
 def primes(n):
     primes = []
@@ -20,6 +20,6 @@ def generator_function(n):
         yield i
 
 if __name__ == '__main__':
-    hello_world()
+    print(hello_world())
     print(primes(11))
 
